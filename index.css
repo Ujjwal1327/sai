@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #006eb8;
+  --secondary-color: #00ca07;
+  --tertiary-color: #24b394;
+  --tin: "Tinos", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

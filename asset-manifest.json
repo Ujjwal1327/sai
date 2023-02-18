@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sai/static/css/main.6a3b359e.css",
+    "main.js": "/sai/static/js/main.dc649b18.js",
+    "static/media/ideaMan.png": "/sai/static/media/ideaMan.3406094b5a0cb3f173d7.png",
+    "index.html": "/sai/index.html",
+    "main.6a3b359e.css.map": "/sai/static/css/main.6a3b359e.css.map",
+    "main.dc649b18.js.map": "/sai/static/js/main.dc649b18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a3b359e.css",
+    "static/js/main.dc649b18.js"
+  ]
+}
