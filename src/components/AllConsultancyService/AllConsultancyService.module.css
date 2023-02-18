@@ -1,0 +1,60 @@
+.AllConsultancyService {
+  background-color: #f2f2f2;
+  margin-top: 60px;
+  border: 1px solid #f2f2f2;
+}
+.AllConsultancyService h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 60px;
+  color: grey;
+  font-family: var(--tin);
+}
+.AllConsultancyService p {
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+  font-family: var(--tin);
+}
+
+.AllConsultancyService ul {
+  /* background-color: white; */
+  width: auto;
+  color: black;
+  /* border: 1px solid red; */
+  border-radius: 3px;
+  display: flex;
+  /* width: auto; */
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto 0px auto;
+}
+
+.AllConsultancyService ul li {
+  cursor: pointer;
+  font-family: var(--tin);
+  font-weight: 500;
+  padding: 8px 20px;
+  margin-top: 10px;
+  background-color: white;
+  /* border: 2px solid red; */
+}
+.AllConsultancyService ul li:hover:not(.active) {
+  background-color: #879d98;
+}
+.AllConsultancyService ul li:nth-child(1) {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.AllConsultancyService ul li:nth-child(4) {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.AllConsultancyService ul .active {
+  /* background-color: rgb(179, 179, 179); */
+  /* border-bottom: 2px solid yellow; */
+  background-color: #24b394;
+}

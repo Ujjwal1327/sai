@@ -1,0 +1,87 @@
+.serviceProvide {
+  padding-top: 100px;
+  font-family: var(--tin);
+  text-align: center;
+  background-color: #efefef;
+}
+.serviceProvide p {
+  font-size: 70px;
+  font-weight: 600;
+  font-size: 60px;
+
+  color: #737373;
+  text-decoration: underline;
+}
+.cardContainer {
+  /* border: 10px solid red; */
+  padding: 0px 50px;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.question {
+  height: 600px;
+  width: 100%;
+  background-color: var(--tertiary-color);
+  color: white;
+  position: relative;
+}
+
+.question h1 {
+  text-align: left;
+  position: absolute;
+  width: 725px;
+  height: 143px;
+  left: 113px;
+  top: 30px;
+
+  font-family: "tin Jamjuree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+}
+.question p {
+  position: absolute;
+  width: 763px;
+  height: 108px;
+  left: 113px;
+  top: 180px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+.example {
+  position: absolute;
+  width: 621px;
+  /* border: 1px solid red; */
+  font-family: var(--tin);
+  display: grid;
+  /* height: 191px; */
+  left: 50px;
+  top: 300px;
+  display: grid;
+  grid-template-columns: auto auto;
+  line-height: 30px;
+}
+.example li {
+  font-weight: 100;
+  color: white;
+  font-size: 16px;
+  padding: 2px 0px;
+  list-style: none;
+}
+.question img {
+  position: absolute;
+  right: 1px;
+  height: 600px;
+  width: 900px;
+}

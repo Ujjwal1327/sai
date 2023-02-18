@@ -1,0 +1,26 @@
+.maintain {
+  /* margin-top: 80px; */
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-family: var(--tin);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.maintain p {
+  margin: 20px 0px;
+  font-size: larger;
+  width: 80%;
+}
+.maintain a {
+  /* font-size: 50px; */
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 30px;
+  font-size: 28px;
+  margin-top: 10px;
+  font-family: var(--tin);
+  /* font-weight: 800; */
+}

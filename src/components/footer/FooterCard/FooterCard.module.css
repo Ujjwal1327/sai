@@ -1,0 +1,16 @@
+.card {
+  width: 300px;
+}
+.card h1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+.card h1::after {
+  content: "";
+  position: absolute;
+  bottom: -20%;
+  left: 0%;
+  height: 2px;
+  width: 20%;
+  background-color: var(--secondary-color);
+}

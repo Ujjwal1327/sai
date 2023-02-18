@@ -1,0 +1,186 @@
+.eachServiceDetail {
+  margin-top: 60px;
+  font-family: var(--tin);
+}
+.landingSection {
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  height: 60vh;
+}
+.landingSection .left {
+  /* border: 1px solid black; */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.landingSection .left h1 {
+  text-align: center;
+  width: 70%;
+  margin-top: 40px;
+}
+.landingSection .left h2 {
+  font-size: 30px;
+  /* margin-top: 40px; */
+}
+.landingSection .left ul {
+  /* list-style: none; */
+  margin: 50px auto 50px auto;
+}
+.landingSection .right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  height: 350px;
+  width: 350px;
+  border-radius: 6px;
+  background-color: var(--tertiary-color);
+  /* border: 1px solid black; */
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: var(--tin);
+}
+.form h1 {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+.form input {
+  background: #ffffff;
+  width: 85%;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 0px;
+  /* font-weight: 100; */
+  font-size: 12px;
+  color: #211a1a;
+}
+.form select {
+  background: #ffffff;
+  width: 85%;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  margin: 10px 0px;
+  /* font-weight: 100; */
+  font-size: 12px;
+  color: #211a1a;
+}
+.form a {
+  padding: 10px 50px;
+  font-size: 19px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  border: none;
+  /* border-radius: 20px; */
+  cursor: pointer;
+  margin-top: 160px;
+}
+.form a:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* What is  */
+.benefits {
+  margin: 10px auto 20px auto;
+  width: 80%;
+  border-bottom: 1px solid grey;
+}
+
+.benefits h1 {
+  color: rgb(92, 92, 92);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+
+  margin: 20px auto 10px auto;
+}
+.benefits p {
+  text-align: center;
+  font-size: 21px;
+  color: grey;
+}
+.benefits nav {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.benefits nav div {
+  text-align: center;
+  display: flex;
+  height: 160px;
+  /* width: 100px; */
+  margin: 40px 100px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.benefits nav div img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 10px 0px;
+}
+
+/* Steps */
+
+.steps {
+  margin: 10px auto 20px auto;
+  width: 80%;
+  /* border-bottom: 1px solid grey; */
+}
+
+.steps h1 {
+  color: rgb(92, 92, 92);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  margin: 20px auto 10px auto;
+}
+.steps p {
+  text-align: center;
+  font-size: 17px;
+  color: grey;
+}
+
+.steps nav {
+  margin: 40px auto 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.steps nav div {
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.steps nav div .icon {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 15px;
+  height: 70px;
+  width: 70px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.steps nav div span {
+  margin: 20px auto 30px auto;
+  font-weight: 600;
+}

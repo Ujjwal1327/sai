@@ -1,0 +1,11 @@
+.accordian div nav {
+  border: 1px solid black;
+  margin: 2px;
+}
+.accordian div nav p {
+  display: block;
+}
+
+.show {
+  display: none;
+}
